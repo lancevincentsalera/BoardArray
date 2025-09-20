@@ -14,8 +14,14 @@ class BoardArray : public Board {
         }
 
         void add(Entry* entry) {
+            
             // TODO: IMPLEMENT THIS FUNCTION
-            // ALGORITHM IS PROVIDED IN INSTRUCTIONS.TXT
+            // ALGORITHM IS PROVIDED IN INSTRUCTIONS.TXT 
+        for(int i = 0; i<sizeof(index); i++){
+            if(entry > index[i]){
+                index[i] = entry; 
+            }   
+      
         }
 
         void print() {
