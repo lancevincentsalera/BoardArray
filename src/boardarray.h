@@ -21,6 +21,7 @@ class BoardArray : public Board {
             if(entry > index[i]){
                 index[i] = entry; 
             }   
+            return;
       
         }
 
