@@ -31,6 +31,6 @@ int main() {
                 cout << "Invalid operation" << endl;
         }
 	} while (ans != 'x');
-
+    
 	return 0;
 }
