@@ -33,6 +33,7 @@ class BoardArray : public Board {
                 cout << entry->name << "'s score is too low to be added!" << endl;
                 return;
             }
+            
 
             if (index < SIZE) {
                 for (int j = index; j > pos; j--) {
