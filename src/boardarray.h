@@ -22,6 +22,7 @@ class BoardArray : public Board {
                 index[i] = entry; 
             }   
             return;
+            // testing balik
       
         }
 
